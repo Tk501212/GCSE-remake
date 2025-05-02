@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(124, 124, 124);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+    color:blueviolet;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+}
+
+input{
+    padding: 10px;
+    margin: 5px;
+    width:300px; 
+}
+
+input[type = "submit"]{
+    background-color: lightskyblue;
+}
+
+input[type = "submit"]:hover{
+    background-color:blueviolet;
+}
+
+input[type = "submit"]:active{
+    background-color: blueviolet;
+}
+
+
+div {
+    background-color:white;
+    text-align:center;
+    width:50%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 25px;
+}

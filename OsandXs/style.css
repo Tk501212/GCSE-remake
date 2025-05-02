@@ -1,0 +1,32 @@
+body{
+    background-color: navy;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'courier New' , courier, monospace;
+}
+
+.cell{
+    font-size: 32pt;
+    font-family: 'Courier New' , Courier, monospace;
+    background-color: orange;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row{ 
+    display:flex;
+} 
+
+.grid{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    user-select: none;
+}
